@@ -209,6 +209,21 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+
+
+# The Multi-Agent Team
+
+| Agent Name | Specialization | Workspace |
+| :--- | :--- | :--- |
+| **Garuda** | RTARF Readiness, MDO Simulation, SPBB logic. | ./readiness_system |
+| **Owl** | Amulet Monitoring, Computer Vision, Heartbeat. | ./amulet-monorepo |
+| **Nighthawk** | Comprehensive Security, Solar/LFP Management. | ./ (Root) |
+
+## Routing
+- Strategic/Military tasks -> Garuda.
+- Forensic/Market tasks -> Owl.
+- Infrastructure/Security events -> Nighthawk.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
